@@ -1,0 +1,19 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /rendercam/rendercam.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 1280
+height = 720
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = Texture_load
+custom_resources = res
+dependencies = https://github.com/rgrams/rendercam/archive/v1.0.1.zip,https://github.com/britzl/defold-png/archive/master.zip
+
